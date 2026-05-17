@@ -1,0 +1,13 @@
+email_drafting:
+  description: >
+    Utilize the validated lead data, identified pain points, and cultural fit insights to craft a highly personalized, compelling outbound email. The email must directly address the lead's specific business challenges, mirror their organizational tone, and present a clear, low-friction call to action.
+  expected_output: >
+    A polished, ready-to-send email draft featuring a high-open-rate subject line, a deeply personalized body text tailored to the prospect's profile, and a strategic call to action.
+  
+
+engagement_optimization:
+  description: >
+    Analyze the finalized email draft alongside the lead's profile and company background to engineer the optimal outreach campaign strategy. Determine the most effective sending windows, define a multi-channel cadence (e.g., email sequence timing combined with LinkedIn touchpoints), and establish follow-up intervals to maximize response rates.
+  expected_output: >
+    A comprehensive outreach sequence playbook outlining the exact timeline, recommended delivery times, multi-channel touchpoints, and strategic next steps for engaging this specific lead.
+  

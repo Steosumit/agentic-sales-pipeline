@@ -1,0 +1,23 @@
+lead_data_collection:
+  description: >
+    Analyze the provided raw lead data to extract, enrich, and compile comprehensive personal and company-level insights. 
+    Identify key decision-makers, company size, sector, recent public announcements, and corporate growth metrics.
+    - Lead Data: {lead_data}
+  expected_output: >
+    A detailed, structured profile compiling enriched personal and company-level data for the lead, highlighting key business metrics and pain points.
+
+cultural_fit_analysis:
+  description: >
+    Review the compiled profile of the lead and their organization. Evaluate their public persona, corporate values, 
+    stated mission, and workplace culture to assess alignment and compatibility with our organization's core principles.
+    - Lead Data: {lead_data}
+  expected_output: >
+    A comprehensive cultural fit assessment outlining corporate alignment, shared values, and potential partnership risks or strengths.
+
+
+lead_scoring_and_validation:
+  description: >
+    Aggregate the enriched data metrics and cultural fit insights gathered in the previous steps. Apply the standard 
+    lead scoring framework to assign a definitive quality score and strictly validate whether the prospect meets pipeline requirements.
+  expected_output: >
+    A finalized lead validation report containing a definitive numerical lead score, qualification breakdown, and a clear "go/no-go" recommendation for the sales team.
